@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 :root {
-    --bg-color: #075791;
-    --primary-color:#F5F7F8 ;
-    --secondary-color:#EBD3F8;
-    --font: "Quicksand", sans-serif;
+    --bg-color: #222831;
+    --primary-color: #DDDDDD;
+    --secondary-color: #F05454;
+    --font: "Nunito Sans", sans-serif;
 }
+
 body {
     background-color: var(--bg-color);
     color: var(--primary-color);
@@ -14,7 +15,7 @@ body {
     margin: 0;
 }
 
- header {
+header {
     background-color: var(--primary-color);
     text-align: center;
     padding: 1px;
@@ -23,7 +24,7 @@ body {
 h1 {
     font-size: 2rem;
     color: var(--bg-color);
-     font-weight: 700;
+    font-weight: 700;
 }
 
 nav {
@@ -35,9 +36,9 @@ nav {
 nav a {
     text-decoration: none;
     color: var(--bg-color);
-     margin: 0 2rem 1rem 0rem;
-     font-size: 1.2rem;
-    }
+    margin: 0 2rem 1rem 0rem;
+    font-size: 1.2rem;
+}
 
 nav a:hover {
     text-decoration: underline;
@@ -45,23 +46,25 @@ nav a:hover {
     transition: transform 0.1s;
 }
 
-
-.graficos-container{
+.graficos-container {
     margin: 5rem;
 }
 
-.graficos-container_texto {
-font-size: 1.3rem;
-text-align: center;
-padding: 2rem;
-border: var(--secondary-color) solid 2px;
+.grafico {
+    margin-top: 3rem;
+}
+
+.graficos-container__texto {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--secondary-color) solid 2px;
 }
 
 span {
     font-weight: bold;
     color: var(--secondary-color);
-   }
-
+}
 
 footer {
     display: flex;
